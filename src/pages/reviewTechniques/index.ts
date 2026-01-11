@@ -1,0 +1,1 @@
+export { ReviewTechniquesPage } from "./ReviewTechniquesPage";
