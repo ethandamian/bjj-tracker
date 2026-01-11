@@ -1,8 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import { RootLayout } from "@/layouts/rootLayout/RootLayout";
-import { MyTechniquesPage } from "@/pages/myTechniques/MyTechniquesPage";
-import { CreateTechniquePage } from "@/pages/createTechnique/CreateTechniquePage";
-import { ReviewTechniquesPage } from "@/pages/reviewTechniques/ReviewTechniquesPage";
+import { RootLayout } from "@/layouts";
+import { CreateTechniquePage, MyTechniquesPage, ReviewTechniquesPage, } from "@/pages";
 
 export const router = createBrowserRouter([
     {
