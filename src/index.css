@@ -10,6 +10,16 @@
 }
 
 :root {
+    --spacing-xxs: 0.5rem;
+    --spacing-xs: 1rem;
+    --spacing-s: 1.5rem;
+    --spacing-m: 2rem;
+
+    --font-size-xs: 1rem;
+    --font-size-s: 1.25rem;
+    --font-size-m: 1.5rem;
+
+
     font-family: "Sora Variable", sans-serif;
     color-scheme: dark light;
     color: rgba(255, 255, 255);
@@ -21,11 +31,11 @@ body {
 }
 
 .page-title {
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: var(--font-size-m);
+    padding: var(--spacing-s);
     border-bottom: 1px solid rgb(255 255 255 / 0.1);
 }
 
 .main-content {
-    padding: 1rem;
+    padding: var(--spacing-xs);
 }

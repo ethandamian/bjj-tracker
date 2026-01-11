@@ -1,0 +1,1 @@
+export { CreateTechniquePage } from "./CreateTechniquePage";
