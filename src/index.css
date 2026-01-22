@@ -15,10 +15,12 @@
     --spacing-s: 1.5rem;
     --spacing-m: 2rem;
 
-    --font-size-xxs: 0.75rem;
-    --font-size-xs: 1rem;
-    --font-size-s: 1.25rem;
-    --font-size-m: 1.5rem;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
 
     --color-primary-rgb: 43, 42, 42;
     --color-primary: rgb(var(--color-primary-rgb));
@@ -35,7 +37,7 @@ body {
 }
 
 .page-title {
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-2xl);
     padding: var(--spacing-s);
     border-bottom: 1px solid rgb(255 255 255 / 0.1);
 }

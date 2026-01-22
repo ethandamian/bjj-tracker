@@ -18,16 +18,17 @@
     gap: var(--spacing-xxs);
 
     & span {
-        font-size: 0.875rem;
+        font-size: var(--font-size-sm);
     }
 }
 
 .technique-name {
-    margin: 0
+    margin: 0;
+    font-size: var(--font-size-lg);
 }
 
 .card-footer p {
-    font-size: var(--font-size-xxs);
+    font-size: var(--font-size-xs);
     color: rgb(175 171 171);
 }
 
