@@ -1,8 +1,37 @@
 .card {
+    background-color: rgb(var(--color-primary-rgb));
     display: flex;
     flex-direction: column;
     gap: var(--spacing-xxs);
     padding: var(--spacing-xs);
-    border: 1px solid white;
     border-radius: var(--spacing-xxs);
+
+    border: 1px solid rgb(255, 255, 255, 0.04);
+
+    box-shadow: 0 0 0 1px rgb(255, 255, 255, 0.02),
+    0 8px 24px rgb(0, 0, 0, 0.6);
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xxs);
+
+    & span {
+        font-size: var(--font-size-sm);
+    }
+}
+
+.technique-name {
+    margin: 0;
+    font-size: var(--font-size-lg);
+}
+
+.card-footer p {
+    font-size: var(--font-size-xs);
+    color: rgb(175 171 171);
+}
+
+.card-button {
+    width: 100%;
 }
