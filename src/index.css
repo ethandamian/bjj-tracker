@@ -15,14 +15,18 @@
     --spacing-s: 1.5rem;
     --spacing-m: 2rem;
 
+    --font-size-xxs: 0.75rem;
     --font-size-xs: 1rem;
     --font-size-s: 1.25rem;
     --font-size-m: 1.5rem;
 
+    --color-primary-rgb: 43, 42, 42;
+    --color-primary: rgb(var(--color-primary-rgb));
+
 
     font-family: "Sora Variable", sans-serif;
     color-scheme: dark light;
-    color: rgba(255, 255, 255);
+    color: rgb(255, 255, 255);
     background-color: #000000;
 }
 
